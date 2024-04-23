@@ -1,0 +1,10 @@
+{
+    "name":"Sample Ad Blocker",
+    "version":"1.0",
+    "description":"Sample App for blocking Ads",
+    "permissions":["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts":["background.js"]
+    },
+    "manifest_version": 2
+}
